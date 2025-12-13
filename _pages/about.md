@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Computing Facilitator at <a style='color: black' href='https://www.njit.edu'>New Jersey Institute of Technology</a>
+subtitle: Research Computing Facilitator at <a href='https://www.njit.edu'>New Jersey Institute of Technology</a>
 
 profile:
   align: right
