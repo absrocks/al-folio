@@ -31,8 +31,8 @@ ninja.data = [{
             window.location.href = "/al-folio/projects/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          title: "Repositories",
+          description: "See the list of repositories contributed by Abhishek",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/repositories/";
