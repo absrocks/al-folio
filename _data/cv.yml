@@ -12,17 +12,23 @@
   type: time_table
   contents:
     - title: Research Computing Facilitator
-      institution: New Jersey Institute of Technology, NJ
+      institution: [New Jersey Institute of Technology, NJ](https://www.njit.edu)
       year: 2023–Present
       description:
         - title: Research Support
           contents:
-            - Provide consulting, programming, and other services to faculty and researchers in using HPC clusters and other research computing resources and by providing advanced consulting to identify, investigate, and resolve problems encountered.
-        - Description 2.
-        - title: Description 3.
+            - Provide consulting, programming, and other services to faculty and researchers in using HPC clusters and other research computing resources
+            - Provide advanced consulting to identify, investigate, and resolve problems encountered.
+        - title: User Guidance
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Provide guidance to existing and potential users on utilizing the HPC cluster for their research projects through one-on-one consultations and training sessions.
+            - Offer assistance with scripting, programming, debugging, workflow management, software installation, and data management.
+        - title: Training & Outreach
+          contents:
+            - Develop and teach workshops, course modules, seminars, and training sessions in basic use of HPC, Programming languages such as C/C++, Fortran, Python, R, etc, Parallel Programming in MPI and OpenMP, GPU computing, debugging and profiling, specific HPC applications, and other topics relevant to use of HPC.
+            - Understand and convey current trends in research computing technology to the user community.
+            - Write user guides, information material, and other documentation.
+            - Run workshops on SLURM usage, containerization via Apptainer, Conda create and manage environments, debug software/library, compilation of software packages, etc.
     - title: Visiting Professor
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933
