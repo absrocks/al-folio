@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/al-folio/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Here are my list of projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/projects/";
@@ -401,8 +401,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-role-of-coastal-vegetation-on-tsunami-energy-attenuation",
+          title: 'Role of coastal vegetation on tsunami energy attenuation',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/1_project.html";
