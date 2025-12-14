@@ -54,7 +54,7 @@
       year: 2011
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
     - Wall-modeled Large Eddy Simulation (WMLES)
     - FSI (Fluid-structure Interactions)
