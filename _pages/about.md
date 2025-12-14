@@ -27,4 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I am a Research Computing Facilitator at [NJIT](https://njit.edu) [High Performance Computing](https://hpc.njit.edu). I specialize in HPC software installation and the management of large-scale computational environments, with a strong emphasis on system health monitoring, software debugging, and performance optimization.
+Hello, I am currently working as a Research Computing Facilitator at [NJIT](https://njit.edu) [High Performance Computing](https://hpc.njit.edu). I specialize in HPC software installation and the management of large-scale computational environments, with a strong emphasis on system health monitoring, software debugging, and performance optimization.
