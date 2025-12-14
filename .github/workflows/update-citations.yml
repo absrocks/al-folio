@@ -1,14 +1,12 @@
 name: Update Google Scholar Citations
 
 on:
-  pull_request:
-    branches:
-      - master
-      - main
-  push:
-    branches:
-      - master
-      - main
+  schedule:
+    - cron: "0 0 * * 0" # Sunday
+    - cron: "0 0 * * 1" # Monday
+    - cron: "0 0 * * 3" # Wednesday
+    - cron: "0 0 * * 5" # Friday
+  workflow_dispatch:
 
 jobs:
   update-citations:
