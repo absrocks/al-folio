@@ -30,5 +30,3 @@ Animal-borne video recordings from blue whales in the open ocean show that remor
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
-
-
