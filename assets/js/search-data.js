@@ -408,7 +408,7 @@ ninja.data = [{
               window.location.href = "/al-folio/projects/1_project.html";
             },},{id: "projects-cfd-analysis-to-study-the-drag-force-of-blue-whale",
           title: 'CFD analysis to study the drag force of blue whale',
-          description: "Completed: 2023",
+          description: "Completed: 2020",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/2_project.html";
             },},{id: "projects-project-3-with-very-long-name",
