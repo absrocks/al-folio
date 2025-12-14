@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Research Computing Facilitator at <a href='https://www.njit.edu'>New Jersey Institute of Technology</a>
 
