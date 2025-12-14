@@ -6,36 +6,17 @@
     - name: Languages
       value: English, Bengali, Hindi
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: New Jersey Institute of Technology, NJ, US
-      year: 2023
-      description:
-        - Importance of Vegetation in Tsunami Mitigation Evidence from Large Eddy Simulations with Fluid-Structure Interactions
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: M.E. in Mechanical Engineering
-      institution: Jadavpur University, Kolkata, India
-      description:
-        - Transient Study of Natural Convection in an Alternately Heated Square Enclosure
-      year: 2014
-    - title: B.Tech in Mechanical Engineering
-      institution: Kalyani Govt. Engg. College, Kalyani, India
-      year: 2011
-
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Computing Facilitator
+      institution: New Jersey Institute of Technology, NJ
+      year: 2023–Present
       description:
-        - Description 1.
+        - title: Research Support
+          contents:
+            - Provide consulting, programming, and other services to faculty and researchers in using HPC clusters 
+              and other research computing resources and by providing advanced consulting to identify, investigate, and resolve problems encountered.
         - Description 2.
         - title: Description 3.
           contents:
@@ -60,6 +41,28 @@
     - title: Associate Professor of Theoretical Physics
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: New Jersey Institute of Technology, NJ, US
+      year: 2023
+      description:
+        - Importance of Vegetation in Tsunami Mitigation Evidence from Large Eddy Simulations with Fluid-Structure Interactions
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: M.E. in Mechanical Engineering
+      institution: Jadavpur University, Kolkata, India
+      description:
+        - Transient Study of Natural Convection in an Alternately Heated Square Enclosure
+      year: 2014
+    - title: B.Tech in Mechanical Engineering
+      institution: Kalyani Government Engineering College, Kalyani, India
+      year: 2011
 
 - title: Open Source Projects
   type: time_table

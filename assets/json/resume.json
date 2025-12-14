@@ -1,24 +1,23 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Abhishek Mukherjee",
+    "label": "Research Computing Facilitator | CFD Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "abhishek.mukherjee@njit.edu",
+    "url": "https://absrocks.github.io/al-folio/",
+    "summary": "Experienced in managing high-performance computing environments, with a strong background in\nHPC software installation, system troubleshooting, and providing solutions for efficient computational\ntasks. ",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "GITC, University Heights",
+      "postalCode": "07102",
+      "city": "Newark",
       "countryCode": "US",
-      "region": "California"
+      "region": "New Jersey"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "absrocks",
+        "url": "https://www.linkedin.com/in/absrocks"
       }
     ]
   },
