@@ -411,11 +411,6 @@ ninja.data = [{
           description: "Completed: 2020",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_project.html";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
