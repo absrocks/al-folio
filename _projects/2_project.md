@@ -5,11 +5,10 @@ description: "Completed: 2020"
 img: assets/img/vel_profile.png
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
 Animal-borne video recordings from blue whales in the open ocean show that remoras preferentially adhere to specific regions on the surface of the whale. Using empirical and computational fluid dynamics analyses, we show that remora attachment was specific to regions of separating flow and wakes caused by surface features on the whale. Adhesion at these locations offers remoras drag reduction of up to 71–84% compared with the freestream. Remoras were observed to move freely along the surface of the whale using skimming and sliding behaviors. Skimming provided drag reduction as high as 50–72% at some locations for some remora sizes, but little to none was available in regions where few to no remoras were observed. Experimental work suggests that the Venturi effect may help remoras stay near the whale while skimming. Understanding the flow environment around a swimming blue whale will inform the placement of biosensor tags to increase attachment time for extended ecological monitoring {% cite einstein1950meaning %}.
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,10 +18,6 @@ Animal-borne video recordings from blue whales in the open ocean show that remor
 <div class="caption">
     Dorsal view of the blue whale where vorticity is colored by velocity magnitude at the outer edge of the boundary layer, revealing structure in the flow, including small-scale instabilities over much of the surface as in transitional flow, and large-scale vortical flows typical of wakes and separation zones.
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
