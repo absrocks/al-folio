@@ -6,5 +6,6 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: true
 nav_order: 5
 ---
-
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# ME 441 : Computer Simulation and Analysis in Mechanical Engineering 
+# ME 403 : Mechanical Systems Design I 
+# ME-430 : Introduction to Computer Aided Design 
