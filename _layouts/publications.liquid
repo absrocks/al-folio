@@ -5,7 +5,7 @@ layout: default
 {% assign ts = site.data.citations_last5y %}
 
 <div class="scholar-widget my-3" style="max-width: 520px; font-size: 0.9rem;">
-  <h4 style="margin-bottom: 0.5rem;">Google Scholar</h4>
+  <h4 style="margin-bottom: 0.5rem;">Google Scholar Metrics</h4>
 
   <table class="table table-sm" style="margin-bottom: 0.75rem;">
     <thead>
@@ -66,6 +66,7 @@ layout: default
       scales: {
         y: {
           beginAtZero: true,
+          max: Math.max(...cites),
           ticks: { precision: 0 }
         }
       }
@@ -75,7 +76,5 @@ layout: default
 {% include bib_search.liquid %}
 
 <div class="publications">
-
 {% bibliography %}
-
 </div>

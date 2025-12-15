@@ -37,9 +37,45 @@ OUTPUT_FILE: str = "_data/citations.yml"
 OUTPUT_PROFILE: str = "_data/scholar_profile.yml"
 OUTPUT_JSON: str = "_data/citations_last5y.json"
 
+def yml_is_current(path: str, today: str) -> bool:
+    if not os.path.exists(path):
+        return False
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+        last = (data.get("metadata") or {}).get("last_updated")
+        if last == today:
+            print(f"{path}: already up-to-date (last_updated={last}). Skipping fetch.")
+            return True
+        if last:
+            print(f"{path}: last_updated={last} (will update).")
+        return False
+    except Exception as e:
+        print(f"Warning: Could not read {path}: {e} (will update).")
+        return False
+def json_is_current(path: str, today: str) -> bool:
+    if not os.path.exists(path):
+        return False
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f) or {}
+        last = (data.get("metadata") or {}).get("last_updated")
+        if last == today:
+            print(f"{path}: already up-to-date (last_updated={last}). Skipping fetch.")
+            return True
+        if last:
+            print(f"{path}: last_updated={last} (will update).")
+        return False
+    except Exception as e:
+        print(f"Warning: Could not read {path}: {e} (will update).")
+        return False
+
 def write_scholar_profile_and_timeseries() -> None:
+    today = datetime.now().strftime("%Y-%m-%d")
     scholarly.set_timeout(15)
     scholarly.set_retries(3)
+    if yml_is_current(OUTPUT_PROFILE, today) and json_is_current(OUTPUT_JSON, today):
+        return
     try:
         author = scholarly.search_author_id(SCHOLAR_USER_ID)
     except Exception as e:
@@ -61,6 +97,7 @@ def write_scholar_profile_and_timeseries() -> None:
     years = list(range(now_year - 4, now_year + 1))  # last 5 years inclusive
     values = [int(cites_per_year.get(y, 0) or 0) for y in years]
     citation_data = {
+        "metadata": {"last_updated": today},
         "scholar": {
             "since_year": cutoff_year,
             "all": {
@@ -85,13 +122,14 @@ def write_scholar_profile_and_timeseries() -> None:
         )
         sys.exit(1)
     payload = {
+        "metadata": {"last_updated": today},
         "since_year": cutoff_year,
         "years": years,
         "citations": values,
     }
     try:
         with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-            json.dump(payload, f, indent=2)
+            json.dump(payload, f, indent=10)
         print(f"Citation data saved to {OUTPUT_JSON}")
     except Exception as e:
         print(
