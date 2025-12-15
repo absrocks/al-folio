@@ -122,10 +122,11 @@ def write_scholar_profile_and_timeseries() -> None:
         )
         sys.exit(1)
     payload = {
-        "metadata": {"last_updated": today},
+        "metadata": { "last_updated": today },
         "since_year": cutoff_year,
         "years": years,
-        "citations": values
+        "citations": values,
+
     }
     try:
         with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
