@@ -1,0 +1,10 @@
+scholar:
+  since_year: 2020
+  all:
+    citations: 60
+    h_index: 3
+    i10_index: 3
+  since:
+    citations: 60
+    h_index: 3
+    i10_index: 3
