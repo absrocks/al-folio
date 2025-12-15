@@ -125,11 +125,11 @@ def write_scholar_profile_and_timeseries() -> None:
         "metadata": {"last_updated": today},
         "since_year": cutoff_year,
         "years": years,
-        "citations": values,
+        "citations": values
     }
     try:
         with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-            json.dump(payload, f, indent=10)
+            json.dump(payload, f)
         print(f"Citation data saved to {OUTPUT_JSON}")
     except Exception as e:
         print(
