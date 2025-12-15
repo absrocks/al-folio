@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "absrocks/al-folio",
+    "data-repo": "absrocks/absrocks.github.io",
     "data-repo-id": "",
     "data-category": "",
     "data-category-id": "",
