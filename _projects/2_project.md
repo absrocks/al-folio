@@ -12,7 +12,7 @@ Animal-borne video recordings from blue whales in the open ocean show that remor
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/q-criterion.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/q-criterion.png" title="whale" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -21,12 +21,12 @@ Animal-borne video recordings from blue whales in the open ocean show that remor
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/whale_S1_vel.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/whale_S1_vel.png" title="whale_vel1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/whale_S3_vel.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/whale_S3_vel.png" title="whale_vel2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Certain regions of the whale’s body are preferred spots for remoras to attach due to lower drag
 </div>
