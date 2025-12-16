@@ -15,7 +15,7 @@ Due to their unpredictability and rapid evolution from the moment they are trigg
         {% include figure.liquid path="assets/img/flex-double-5e4-SP1.5D.gif" title="two cylinders" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/flex-four-5e5-SP1.5D.gif" title="four cylinders" class="img-fluid rounded z-depth-1" max-height="600px" %}
+        {% include figure.liquid path="assets/img/flex-four-5e5-SP1.5D.gif" title="four cylinders" class="img-fluid rounded z-depth-1" max-height="1200px" %}
     </div>
 </div>
 <div class="caption">
