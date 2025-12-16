@@ -7,7 +7,7 @@ subtitle: Research Computing Facilitator at <a href='https://www.njit.edu'>New J
 profile:
   align: right
   image: bio-self.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Research Computing Facilitator </p>
     <p>5400 GITC, Newark <br></p>
