@@ -9,7 +9,7 @@ profile:
   image: bio-self.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Research Computing Facilitator <br></p>
+    <p>Research Computing Facilitator </p>
     <p>5400 GITC, Newark <br></p>
     <p>NJ 07102, US</p>
 
